@@ -1,0 +1,286 @@
+
+
+#preloader{
+    background: black url(public/ring.gif) no-repeat center center;
+    background-size: 75%;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.container{
+    width: 100%;
+}
+
+.search_icon{
+    color: #9a9a9a;
+    width: 1.5rem;
+    transition: 0.3s;
+}
+
+.search_button{
+    border-radius: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.search_icon:hover{
+    color:white;
+}
+
+.location_header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: #2a2a2a;
+}
+
+.location_button{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-weight: 600;
+    transition: 0.3s;
+    width: 5rem;
+    color: #9a9a9a;
+    font-size: 0.8rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.location_button:hover{
+    color: white;
+}
+
+.location_active{
+    color: white;
+}
+
+.header_logo{
+    width: 5rem;
+}
+
+.header_container{
+    display: flex;
+    padding: 1.5rem;
+    background-color: #1a1a1a;
+    justify-content: space-between;
+}
+
+.header_title{
+    color: #9a9a9a;
+    font-weight: 500;
+    user-select: none;
+}
+
+.header_button{
+    border: 1px solid #2a2a2a;
+}
+
+.banner_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner_img{
+    width: 100%;
+    object-fit:none;
+}
+
+.event_banner{
+    background: linear-gradient(90deg, midnightblue, slateblue);
+    display: flex;
+    justify-content: center;
+}
+
+.banner_pitch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.banner{
+    /* background: linear-gradient(-65deg, #5087e6,black); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_text{
+    padding: 3rem;
+}
+
+.heading{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.subtitle{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+    user-select: none;
+}
+
+.sub_heading{
+    font-size: 1rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.desc{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+.light{
+    color: white;
+}
+
+.white_btn{
+    background-color: white;
+    padding: 0.5rem;
+    color: #1a1a1a;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1rem;
+    width:10rem;
+}
+
+.white_btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 20px white;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.nav_items{
+    list-style: none;
+    color: #9a9a9a;
+    font-weight: 600;
+    user-select: none;
+    cursor: pointer;
+    display: none;
+    gap: 3rem;
+    margin-right: 2rem;
+}
+
+.nav_item{
+    transition: 0.3s;
+}
+
+.nav_item:hover{
+    color: white;
+}
+
+.searchbar{
+    padding-left: 0.5rem;
+    width: 8.5rem;
+    font-size: 1rem;
+    display: none;
+}
+
+.feature_container{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.feature{
+    width: 30ch;
+    height: 30ch;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    background-color: #1a1a1a;
+    transition: 0.3s;
+}
+.feature:hover{
+    background-color: #2a2a2a;
+}
+
+.feature_text{
+    padding: 1.5rem;
+    user-select: none;
+}
+
+@media (min-width:475px){
+
+}
+
+@media (min-width:768px){
+
+    .banner_content{
+        flex-wrap: nowrap;
+    }
+
+    .banner_img{
+        width: 50%;
+    }
+
+    .heading{
+        font-size: 1.75rem;
+    }
+
+    .header_logo{
+        width:8rem;
+    }
+    .header_logo{
+        margin-left: 2rem;
+    }
+
+    .searchbar{
+        width:20rem
+    }
+    
+
+    #preloader{
+        background-size: 25%;
+    }
+
+}
+
+@media (min-width:1024px){
+    .location_header{
+        justify-content: flex-start;
+        padding-left: 2rem;
+    }
+    .banner_img{
+        width: 50%;
+    }
+    .banner{
+        width: 50%;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .desc{
+        font-size: 1.25rem;
+    }
+    .location_button{
+        font-size: 1rem;
+        width: 6rem;
+    }
+    .nav_items{
+        display: flex;
+    }
+    .right{
+        margin-right: 2rem;
+    }
+    .banner_pitch{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}

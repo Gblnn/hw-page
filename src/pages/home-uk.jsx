@@ -13,7 +13,7 @@ export default function HomeUK(){
         <>
         <LocationBar uk="location_active"/>
         <HeaderBar/>
-        <Banner location="UNITED KINGDOM" img="/Uk-campus.jpg" desc="Since 1821, our pioneering research and education has made a positive impact on the global stage. We continue to push new frontiers in the fields of Science, Technology, Engineering, Business and Design."/>
+        <Banner heading="Future made for 200 years" location="UNITED KINGDOM" img="/Uk-campus.jpg" desc="Since 1821, our pioneering research and education has made a positive impact on the global stage. We continue to push new frontiers in the fields of Science, Technology, Engineering, Business and Design."/>
         <EventBanner heading="Charting a Course during COP28 UAE" desc="Find out more about our unique role as a beacon for transformation; catalysing discussion in to action at this critical time." color="color_green"/>
         <Desc heading="Why choose Heriot Watt?" description="Heriot-Watt University enjoys an established reputation for world-class teaching and practical, leading-edge research and sustainable educational practices modelled after real world applications."/>
         <div className="feature_container">

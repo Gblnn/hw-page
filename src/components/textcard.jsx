@@ -5,9 +5,12 @@ export default function TextCard(props){
         <>
         <div className="feature">
             <h1 className="subtitle">{props.heading}</h1>
+            <div className="feature_text_container">
             <p className="light_desc feature_text">
                 {props.description}
-            </p>
+            </p>    
+            </div>
+            
         </div>
         </>
     )

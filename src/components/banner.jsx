@@ -7,7 +7,7 @@
             <div class="banner_text">
                 <h3 class="sub_heading ">{props.location}</h3>
                 <h1 class = "heading">
-                Future made for 200 years.
+                {props.heading}
                 </h1>
                 <p class="desc">{props.desc}</p>
                 <br/>

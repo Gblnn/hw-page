@@ -52,7 +52,7 @@
     color: white;
 }
 
-.location_active{
+#location_active{
     color: white;
 }
 
@@ -92,6 +92,14 @@
     justify-content: center;
 }
 
+#color_blue{
+    background: linear-gradient(90deg, midnightblue, slateblue);
+}
+
+#color_green{
+    background: linear-gradient(90deg, forestgreen, midnightblue);
+}
+
 .banner_pitch{
     display: flex;
     justify-content: center;
@@ -100,7 +108,8 @@
 }
 
 .banner{
-    /* background: linear-gradient(-65deg, #5087e6,black); */
+    background: linear-gradient(90deg, #2a2a2a,black);
+    
     width: 100%;
     display: flex;
     justify-content: center;

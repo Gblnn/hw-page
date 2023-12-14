@@ -1,15 +1,15 @@
- export default function Banner(){
+ export default function Banner(props){
     return(
         <>
         <div class="banner_content">
-            <img class="container banner_img" src="/Dubai-new-campus.jpg"/>
+            <img class="container banner_img" src={props.img}/>
             <div class="banner">
             <div class="banner_text">
-                <h3 class="sub_heading ">DUBAI</h3>
+                <h3 class="sub_heading ">{props.location}</h3>
                 <h1 class = "heading">
                 Future made for 200 years.
                 </h1>
-                <p class="desc">Heriot-Watt University Dubai offers an extensive range of research-informed degree programmes in a global study environment, with strong links to business and industry.</p>
+                <p class="desc">{props.desc}</p>
                 <br/>
                 <button class = "white_btn">
                 Browse Courses

@@ -1,15 +1,15 @@
 
 
-export default function EventBanner(){
+export default function EventBanner(props){
     return(
         <>
-        <div className="event_banner">
+        <div className="event_banner" id={props.color}>
           <div className="banner_text">
             <h3 className="sub_heading ">HERIOT WATT</h3>
             <h1 className = "heading">
-              CLIMATE HUB
+              {props.heading}
             </h1>
-            <p className="light desc">Explore the Heriot Watt Climate Hub, a dedicated hub to advancing climate action and sustainability..</p>
+            <p className="light desc">{props.desc}</p>
             <br/>
             <button className = "white_btn">
               Learn More

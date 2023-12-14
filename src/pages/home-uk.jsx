@@ -8,13 +8,13 @@ import '../styles/style.css'
 import '../styles/utils.css'
 
 
-export default function Home(){
+export default function HomeUK(){
     return(
         <>
-        <LocationBar dubai="location_active"/>
+        <LocationBar uk="location_active"/>
         <HeaderBar/>
-        <Banner location="DUBAI" img="/Dubai-new-campus.jpg" desc="Heriot-Watt University Dubai offers an extensive range of research-informed degree programmes in a global study environment, with strong links to business and industry."/>
-        <EventBanner heading="CLIMATE HUB" desc="Explore the Heriot Watt Climate Hub, a dedicated hub to advancing climate action and sustainability." color="color_blue"/>
+        <Banner location="UNITED KINGDOM" img="/Uk-campus.jpg" desc="Since 1821, our pioneering research and education has made a positive impact on the global stage. We continue to push new frontiers in the fields of Science, Technology, Engineering, Business and Design."/>
+        <EventBanner heading="Charting a Course during COP28 UAE" desc="Find out more about our unique role as a beacon for transformation; catalysing discussion in to action at this critical time." color="color_green"/>
         <Desc heading="Why choose Heriot Watt?" description="Heriot-Watt University enjoys an established reputation for world-class teaching and practical, leading-edge research and sustainable educational practices modelled after real world applications."/>
         <div className="feature_container">
             <TextCard heading="Why choose us?" description = "We were one of the first overseas university to set up in Dubai International academic City, offering quality British education to people in the Gulf area"/>

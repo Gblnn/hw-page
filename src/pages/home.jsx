@@ -30,6 +30,7 @@ export default function Home(){
             <TextCard heading="Postgraduate taught" description = "We offer an impressive range of postgraduate taught programmes."/>
             <TextCard heading="PhD study" description = "Research training in the form of PhD programmes is an important part of our offering at the Dubai campus."/>
         </div>
+        <div class="empty"></div>
         </>
     )
 }

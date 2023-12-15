@@ -83,6 +83,7 @@
 }
 .banner_img{
     width: 100%;
+    height: 42ch;
     object-fit:none;
     transition: 0.3s ease-in;
 }

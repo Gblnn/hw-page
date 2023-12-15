@@ -84,6 +84,7 @@
 .banner_img{
     width: 100%;
     object-fit:none;
+    transition: 0.3s ease-in;
 }
 
 .event_banner{

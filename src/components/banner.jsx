@@ -2,7 +2,7 @@
     return(
         <>
         <div class="banner_content">
-            <img class="container banner_img" src={props.img}/>
+            <img class="container banner_img" src={props.img} alt="banner-img"/>
             <div class="banner">
             <div class="banner_text">
                 <h3 class="sub_heading ">{props.location}</h3>

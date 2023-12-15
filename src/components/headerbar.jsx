@@ -4,7 +4,7 @@ export default function HeaderBar(){
     return(
         <>
         <header class="header_container">
-            <img className="header_logo" src="/logo-footer-hw.svg"/>
+            <img className="header_logo" src="/logo-footer-hw.svg" alt="header-logo"/>
             <div className="right">
             <nav>
                 <ul className="nav_items">

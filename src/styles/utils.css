@@ -106,6 +106,10 @@
     background: linear-gradient(90deg, midnightblue, forestgreen);
 }
 
+#color_navy{
+    background: linear-gradient(90deg, midnightblue, navy);
+}
+
 .banner_pitch{
     display: flex;
     justify-content: center;

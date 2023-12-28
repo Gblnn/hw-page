@@ -58,6 +58,7 @@
 
 .header_logo{
     width: 5rem;
+    height: 4rem;
 }
 
 .header_container{
@@ -259,7 +260,7 @@
     }
 
     .heading{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .header_logo{
@@ -293,7 +294,7 @@
         width: 50%;
     }
     .heading{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .desc{
         font-size: 1.25rem;
